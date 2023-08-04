@@ -9,7 +9,6 @@ export const Products = () => {
     async function fetchProducts() {
       const response = await fetch("/data/products.json");
       const data = await response.json();
-      console.log(data);
       setProducts(data.products);
     }
     fetchProducts();
@@ -26,7 +25,7 @@ export const Products = () => {
             <p>Precio: ${product.price}</p>
             <p>
               Disponibilidad:
-              {product.availability ? "Disponible" : "No disponible"}
+              {product.availability ? " Disponible" : " No disponible"}
             </p>
             <p className={product.availability ? "" : styles["product-not-avaliable"]}>
               {product.description}
