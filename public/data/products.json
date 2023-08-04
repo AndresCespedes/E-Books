@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Producto 1",
+      "category": "Electrónicos",
+      "price": 199.99,
+      "availability": true,
+      "description": "Este es el producto 1. Es un ejemplo de descripción del producto.",
+      "images": ["url_de_la_imagen_1.jpg", "url_de_la_imagen_2.jpg"],
+      "reviews": [
+        {
+          "id": 101,
+          "user": "Usuario1",
+          "rating": 4,
+          "comment": "Buena calidad, lo recomiendo."
+        },
+        {
+          "id": 102,
+          "user": "Usuario2",
+          "rating": 5,
+          "comment": "¡Excelente producto! Muy satisfecho con la compra."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Producto 2",
+      "category": "Hogar",
+      "price": 49.99,
+      "availability": false,
+      "description": "Este es el producto 2. Es un ejemplo de descripción del producto.",
+      "images": ["url_de_la_imagen_3.jpg", "url_de_la_imagen_4.jpg"],
+      "reviews": [
+        {
+          "id": 201,
+          "user": "Usuario3",
+          "rating": 3,
+          "comment": "Bueno, pero esperaba un poco más de calidad."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Producto 3",
+      "category": "Electrónicos",
+      "price": 199.99,
+      "availability": true,
+      "description": "Este es el producto 1. Es un ejemplo de descripción del producto.",
+      "images": ["url_de_la_imagen_1.jpg", "url_de_la_imagen_2.jpg"],
+      "reviews": [
+        {
+          "id": 101,
+          "user": "Usuario1",
+          "rating": 4,
+          "comment": "Buena calidad, lo recomiendo."
+        },
+        {
+          "id": 102,
+          "user": "Usuario2",
+          "rating": 5,
+          "comment": "¡Excelente producto! Muy satisfecho con la compra."
+        }
+      ]
+    }
+  ]
+}
